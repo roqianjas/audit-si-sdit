@@ -1,0 +1,13 @@
+{
+  "name": "audit-si-sdit-presentation",
+  "version": "1.0.0",
+  "description": "Presentation export scripts for SD IT Al-huda Audit SI",
+  "main": "capture.cjs",
+  "scripts": {
+    "capture": "node capture.cjs",
+    "export-pdf": "node export-pdf.cjs"
+  },
+  "dependencies": {
+    "puppeteer": "^25.1.0"
+  }
+}

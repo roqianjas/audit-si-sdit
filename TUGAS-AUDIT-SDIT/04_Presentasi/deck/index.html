@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<title>Deck 453 — Audit SI SD IT Al-huda Kelapa Gading</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="themes.css" />
+<script>
+  tailwind.config = { 
+    theme: { 
+      extend: { 
+        fontFamily: { sans: ['Inter','sans-serif'] },
+        colors: {
+            sditGreen: '#3BB17B',
+        }
+      } 
+    } 
+  }
+</script>
+<style>
+  /* Governance grid pattern */
+  .gov-grid {
+    background-image:
+      linear-gradient(to right, rgba(59, 177, 123, 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(59, 177, 123, 0.05) 1px, transparent 1px);
+    background-size: 36px 36px;
+  }
+
+  /* Deco classes */
+  .deco-blob-tr { position: absolute; top: -80px; right: -80px; width: 280px; height: 280px; opacity: 0.25; z-index: 0; pointer-events: none; }
+  .deco-blob-bl { position: absolute; bottom: -100px; left: -100px; width: 320px; height: 320px; opacity: 0.18; z-index: 0; pointer-events: none; }
+  .deco-dot-amber { position: absolute; width: 10px; height: 10px; border-radius: 9999px; background: var(--accent2-500); z-index: 0; opacity: 0.7; pointer-events: none; }
+  .deco-dot-cyan { position: absolute; width: 10px; height: 10px; border-radius: 9999px; background: var(--accent-500); z-index: 0; opacity: 0.6; pointer-events: none; }
+  .deco-dot-violet { position: absolute; width: 6px; height: 6px; border-radius: 9999px; background: var(--primary-500); z-index: 0; opacity: 0.5; pointer-events: none; }
+</style>
+</head>
+<body data-theme="sdit-dark">
+
+<!-- ======================== SLIDE 1: COVER ======================== -->
+<div class="slide relative">
+  <div class="absolute inset-0 gov-grid opacity-60"></div>
+
+  <!-- decorative blob top-left -->
+  <svg class="absolute -top-24 -left-32 w-[440px] h-[440px] opacity-40" viewBox="0 0 200 200">
+    <path fill="var(--motif-primary-fill)" d="M40.4,-58.2C53.7,-49.9,66.9,-41.3,72.1,-29.1C77.4,-16.9,74.7,-1.1,70.6,13.5C66.5,28,61,41.4,51.1,50.6C41.2,59.7,26.9,64.7,12.4,67.3C-2,69.9,-16.7,70.2,-30,65.5C-43.3,60.8,-55.3,51.1,-62.5,38.5C-69.6,25.8,-72,10.3,-69.9,-4.2C-67.8,-18.7,-61.3,-32.1,-51.4,-41.6C-41.4,-51.1,-28,-56.7,-14.5,-60.4C-1,-64.1,12.7,-66,27.1,-66.5C41.5,-67,56.7,-66,40.4,-58.2Z" transform="translate(100 100)" />
+  </svg>
+  <svg class="absolute -bottom-32 -right-24 w-[480px] h-[480px] opacity-20" viewBox="0 0 200 200">
+    <path fill="var(--motif-accent-fill)" d="M44.7,-67.5C58.2,-59.6,69.5,-47.4,75.2,-33.1C80.9,-18.8,81,-2.4,77.7,12.7C74.3,27.7,67.6,41.4,57.4,52.1C47.3,62.8,33.7,70.5,18.7,74.7C3.7,79,-12.7,79.7,-26.6,74.6C-40.4,69.5,-51.7,58.5,-60.5,45.7C-69.3,33,-75.6,18.5,-77.2,3.1C-78.9,-12.3,-75.8,-28.6,-67.5,-41.5C-59.1,-54.4,-45.5,-63.9,-31.4,-71.2C-17.4,-78.5,-2.9,-83.6,10.7,-82.2C24.4,-80.8,31.2,-75.4,44.7,-67.5Z" transform="translate(100 100)" />
+  </svg>
+
+  <!-- dots scatter -->
+  <div class="absolute top-24 right-32 w-3 h-3 rounded-full" style="background: var(--accent-500)"></div>
+  <div class="absolute top-44 right-56 w-2 h-2 rounded-full" style="background: var(--primary-500)"></div>
+  <div class="absolute top-40 right-44 w-2.5 h-2.5 rounded-full" style="background: var(--accent2-500)"></div>
+
+  <div class="relative z-10 px-20 py-14 h-full flex flex-col justify-between">
+    <div class="flex items-center gap-4">
+      <img src="assets/images/logo-sdit.jpeg" alt="Logo SDIT" class="w-16 h-16 p-1 rounded-xl object-contain bg-white border border-slate-700">
+      <div class="leading-tight">
+        <div class="text-lg font-black tracking-wider text-slate-100">SD IT AL-HUDA</div>
+        <div class="text-[10px] tracking-[0.2em] text-slate-400 font-semibold uppercase">Kelapa Gading - Jakarta Utara</div>
+      </div>
+    </div>
+
+    <div class="max-w-4xl">
+      <div class="inline-block px-4 py-1.5 rounded-full text-xs font-bold mb-6" style="background: rgba(59, 177, 123, 0.2); color: var(--primary-300); border: 1px solid var(--primary-600);">
+        Tugas Akhir — Audit Sistem Informasi
+      </div>
+      <h1 class="text-7xl font-black tracking-tight text-white leading-[1.05]">
+        Evaluasi Tata Kelola TI<br>
+        <span style="color: var(--primary-400)">SD IT Al-huda Kelapa Gading</span><br>
+        Menggunakan COBIT 2019
+      </h1>
+      <p class="mt-8 text-lg text-slate-300 max-w-3xl leading-relaxed font-medium">
+        Penilaian Capability Level dan Analisis GAP pada 5 Domain Utama (APO07, BAI09, DSS01, DSS03, DSS05) untuk meningkatkan keandalan sistem administrasi dan operasional pendidikan.
+      </p>
+    </div>
+
+    <div class="flex items-center gap-8 mt-4 pt-6 border-t border-slate-800">
+      <div class="flex items-center gap-4">
+        <div class="w-12 h-12 rounded-full flex items-center justify-center bg-slate-800 border border-slate-700">
+          <iconify-icon icon="lucide:users" width="20" height="20" style="color: var(--primary-400);"></iconify-icon>
+        </div>
+        <div class="leading-tight">
+          <div class="text-[10px] text-slate-400 uppercase tracking-wider font-bold mb-1">Tim Penyusun</div>
+          <div class="text-sm font-bold text-white">Fahruroji &amp; Yusuf</div>
+        </div>
+      </div>
+      <div class="flex items-center gap-4">
+        <div class="w-12 h-12 rounded-full flex items-center justify-center bg-slate-800 border border-slate-700">
+          <iconify-icon icon="lucide:user-check" width="20" height="20" style="color: var(--accent-400);"></iconify-icon>
+        </div>
+        <div class="leading-tight">
+          <div class="text-[10px] text-slate-400 uppercase tracking-wider font-bold mb-1">Dosen Pengampu</div>
+          <div class="text-sm font-bold text-white">Juarni Siregar, S.Pd., M.Kom</div>
+        </div>
+      </div>
+      <div class="flex items-center gap-4">
+        <div class="w-12 h-12 rounded-full flex items-center justify-center bg-slate-800 border border-slate-700">
+          <iconify-icon icon="lucide:graduation-cap" width="20" height="20" style="color: var(--accent2-400);"></iconify-icon>
+        </div>
+        <div class="leading-tight">
+          <div class="text-[10px] text-slate-400 uppercase tracking-wider font-bold mb-1">Program Studi</div>
+          <div class="text-sm font-bold text-white">Sistem Informasi (S1) - UNM</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================== SLIDE 2: AGENDA ======================== -->
+<div class="slide relative">
+  <div class="absolute inset-0 gov-grid opacity-60"></div>
+  <svg class="absolute -top-16 -right-16 w-64 h-64 opacity-20" viewBox="0 0 200 200">
+    <path fill="var(--motif-primary-fill)" d="M44.7,-67.5C58.2,-59.6,69.5,-47.4,75.2,-33.1C80.9,-18.8,81,-2.4,77.7,12.7C74.3,27.7,67.6,41.4,57.4,52.1C47.3,62.8,33.7,70.5,18.7,74.7C3.7,79,-12.7,79.7,-26.6,74.6C-40.4,69.5,-51.7,58.5,-60.5,45.7C-69.3,33,-75.6,18.5,-77.2,3.1C-78.9,-12.3,-75.8,-28.6,-67.5,-41.5C-59.1,-54.4,-45.5,-63.9,-31.4,-71.2C-17.4,-78.5,-2.9,-83.6,10.7,-82.2C24.4,-80.8,31.2,-75.4,44.7,-67.5Z" transform="translate(100 100)" />
+  </svg>
+
+  <div class="relative z-10 px-20 py-16 h-full flex flex-col">
+    <div class="flex items-center justify-between mb-8">
+      <div>
+        <h1 class="text-5xl font-black text-white">Agenda Pembahasan</h1>
+        <div class="w-24 h-1.5 mt-4 rounded-full" style="background: var(--primary-600)"></div>
+      </div>
+      <div class="w-16 h-16 rounded-2xl flex items-center justify-center bg-slate-800 border border-slate-700">
+        <iconify-icon icon="lucide:list-checks" width="32" height="32" style="color: var(--primary-400);"></iconify-icon>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-x-12 gap-y-6 max-w-5xl mt-4">
+      <div class="flex items-center gap-5 p-4 rounded-2xl bg-slate-800/50 border border-slate-700/50">
+        <div class="w-14 h-14 rounded-xl flex items-center justify-center bg-primary-600/20 border border-primary-500/30">
+          <span class="text-primary-400 font-black text-xl">01</span>
+        </div>
+        <div class="flex-1 text-xl font-bold text-slate-100">Latar Belakang &amp; Permasalahan</div>
+      </div>
+      <div class="flex items-center gap-5 p-4 rounded-2xl bg-slate-800/50 border border-slate-700/50">
+        <div class="w-14 h-14 rounded-xl flex items-center justify-center bg-primary-600/20 border border-primary-500/30">
+          <span class="text-primary-400 font-black text-xl">02</span>
+        </div>
+        <div class="flex-1 text-xl font-bold text-slate-100">Ruang Lingkup COBIT 2019</div>
+      </div>
+      <div class="flex items-center gap-5 p-4 rounded-2xl bg-slate-800/50 border border-slate-700/50">
+        <div class="w-14 h-14 rounded-xl flex items-center justify-center bg-primary-600/20 border border-primary-500/30">
+          <span class="text-primary-400 font-black text-xl">03</span>
+        </div>
+        <div class="flex-1 text-xl font-bold text-slate-100">Struktur Organisasi &amp; RACI</div>
+      </div>
+      <div class="flex items-center gap-5 p-4 rounded-2xl bg-slate-800/50 border border-slate-700/50">
+        <div class="w-14 h-14 rounded-xl flex items-center justify-center bg-accent-500/20 border border-accent-500/30">
+          <span class="text-accent-400 font-black text-xl">04</span>
+        </div>
+        <div class="flex-1 text-xl font-bold text-slate-100">Hasil Capability Level</div>
+      </div>
+      <div class="flex items-center gap-5 p-4 rounded-2xl bg-slate-800/50 border border-slate-700/50">
+        <div class="w-14 h-14 rounded-xl flex items-center justify-center bg-accent-500/20 border border-accent-500/30">
+          <span class="text-accent-400 font-black text-xl">05</span>
+        </div>
+        <div class="flex-1 text-xl font-bold text-slate-100">GAP Analysis</div>
+      </div>
+      <div class="flex items-center gap-5 p-4 rounded-2xl bg-slate-800/50 border border-slate-700/50">
+        <div class="w-14 h-14 rounded-xl flex items-center justify-center bg-accent2-500/20 border border-accent2-500/30">
+          <span class="text-accent2-400 font-black text-xl">06</span>
+        </div>
+        <div class="flex-1 text-xl font-bold text-slate-100">Kesimpulan &amp; Rekomendasi</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================== SLIDE 3: LATAR BELAKANG ======================== -->
+<div class="slide relative">
+  <div class="relative z-10 px-20 py-16 h-full flex flex-col">
+    <div class="flex items-start justify-between mb-6">
+      <div>
+        <h1 class="text-4xl font-black text-white leading-tight">Latar Belakang &amp; Permasalahan</h1>
+        <div class="w-20 h-1.5 mt-3 rounded-full bg-primary-600"></div>
+      </div>
+      <div class="w-14 h-14 rounded-2xl flex items-center justify-center bg-slate-800 border border-slate-700">
+        <iconify-icon icon="lucide:alert-circle" width="28" height="28" class="text-primary-400"></iconify-icon>
+      </div>
+    </div>
+    <p class="text-slate-300 max-w-4xl mt-2 mb-8 text-lg leading-relaxed">
+      Ketergantungan operasional SD IT Al-huda terhadap sistem informasi pendidikan (Dapodik, BOSP) dan Lab Komputer mengharuskan adanya tata kelola TI yang stabil dan aman.
+    </p>
+
+    <div class="grid grid-cols-2 gap-8 flex-1 min-h-0">
+      <div class="rounded-3xl border border-slate-700 bg-slate-800/40 p-8 flex flex-col">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center bg-orange-500/20 border border-orange-500/30">
+            <iconify-icon icon="lucide:monitor-off" width="24" height="24" class="text-orange-400"></iconify-icon>
+          </div>
+          <div class="text-xl font-black text-white">Inventaris &amp; SOP Belum Formal</div>
+        </div>
+        <div class="w-12 h-1 mb-4 rounded-full bg-orange-500/50"></div>
+        <p class="text-base text-slate-300 leading-relaxed">
+          Pengelolaan aset hardware/software belum terdokumentasi sistematis, serta kurangnya SOP formal untuk penanganan kendala teknis (insiden) di ruang Lab Komputer.
+        </p>
+      </div>
+      
+      <div class="rounded-3xl border border-slate-700 bg-slate-800/40 p-8 flex flex-col">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center bg-rose-500/20 border border-rose-500/30">
+            <iconify-icon icon="lucide:shield-alert" width="24" height="24" class="text-rose-400"></iconify-icon>
+          </div>
+          <div class="text-xl font-black text-white">Keamanan &amp; SDM Kurang Merata</div>
+        </div>
+        <div class="w-12 h-1 mb-4 rounded-full bg-rose-500/50"></div>
+        <p class="text-base text-slate-300 leading-relaxed">
+          Aspek keamanan informasi data (Dapodik, nilai siswa) masih bersifat dasar tanpa kebijakan tertulis, dan kompetensi literasi digital guru/staf belum dipantau merata.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================== SLIDE 4: RUANG LINGKUP ======================== -->
+<div class="slide relative">
+  <div class="relative z-10 px-20 py-16 h-full flex flex-col">
+    <div class="flex items-start justify-between mb-6">
+      <div>
+        <h1 class="text-4xl font-black text-white leading-tight">Ruang Lingkup: 5 Domain COBIT 2019</h1>
+        <div class="w-20 h-1.5 mt-3 rounded-full bg-primary-600"></div>
+      </div>
+      <div class="w-14 h-14 rounded-2xl flex items-center justify-center bg-slate-800 border border-slate-700">
+        <iconify-icon icon="lucide:layers" width="28" height="28" class="text-primary-400"></iconify-icon>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-5 gap-4 mt-6 flex-1">
+      <div class="rounded-2xl border border-slate-700 bg-slate-800 p-5 flex flex-col items-center text-center">
+        <div class="w-16 h-16 rounded-full bg-primary-600/20 flex items-center justify-center mb-4">
+          <iconify-icon icon="lucide:users" width="32" height="32" class="text-primary-400"></iconify-icon>
+        </div>
+        <h3 class="text-2xl font-black text-primary-400 mb-1">APO07</h3>
+        <p class="text-sm font-bold text-white mb-3">Managed HR</p>
+        <p class="text-[11px] text-slate-400 leading-relaxed">Evaluasi kompetensi &amp; pelatihan TI untuk guru dan staf sekolah.</p>
+      </div>
+      <div class="rounded-2xl border border-slate-700 bg-slate-800 p-5 flex flex-col items-center text-center">
+        <div class="w-16 h-16 rounded-full bg-primary-600/20 flex items-center justify-center mb-4">
+          <iconify-icon icon="lucide:hard-drive" width="32" height="32" class="text-primary-400"></iconify-icon>
+        </div>
+        <h3 class="text-2xl font-black text-primary-400 mb-1">BAI09</h3>
+        <p class="text-sm font-bold text-white mb-3">Managed Assets</p>
+        <p class="text-[11px] text-slate-400 leading-relaxed">Pengelolaan aset PC Lab, lisensi software, dan server sekolah.</p>
+      </div>
+      <div class="rounded-2xl border border-slate-700 bg-slate-800 p-5 flex flex-col items-center text-center">
+        <div class="w-16 h-16 rounded-full bg-accent-500/20 flex items-center justify-center mb-4">
+          <iconify-icon icon="lucide:settings" width="32" height="32" class="text-accent-400"></iconify-icon>
+        </div>
+        <h3 class="text-2xl font-black text-accent-400 mb-1">DSS01</h3>
+        <p class="text-sm font-bold text-white mb-3">Managed Operations</p>
+        <p class="text-[11px] text-slate-400 leading-relaxed">Operasional harian, penjadwalan Lab, dan backup data sistem sekolah.</p>
+      </div>
+      <div class="rounded-2xl border border-slate-700 bg-slate-800 p-5 flex flex-col items-center text-center">
+        <div class="w-16 h-16 rounded-full bg-accent-500/20 flex items-center justify-center mb-4">
+          <iconify-icon icon="lucide:wrench" width="32" height="32" class="text-accent-400"></iconify-icon>
+        </div>
+        <h3 class="text-2xl font-black text-accent-400 mb-1">DSS03</h3>
+        <p class="text-sm font-bold text-white mb-3">Managed Problems</p>
+        <p class="text-[11px] text-slate-400 leading-relaxed">Penanganan insiden, kendala teknis saat CBT, dan mitigasi error.</p>
+      </div>
+      <div class="rounded-2xl border border-slate-700 bg-slate-800 p-5 flex flex-col items-center text-center">
+        <div class="w-16 h-16 rounded-full bg-accent2-500/20 flex items-center justify-center mb-4">
+          <iconify-icon icon="lucide:shield-check" width="32" height="32" class="text-accent2-400"></iconify-icon>
+        </div>
+        <h3 class="text-2xl font-black text-accent2-400 mb-1">DSS05</h3>
+        <p class="text-sm font-bold text-white mb-3">Managed Security</p>
+        <p class="text-[11px] text-slate-400 leading-relaxed">Keamanan data sensitif siswa (Dapodik), jaringan lokal, dan akses sistem.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================== SLIDE 5: STRUKTUR & METODOLOGI ======================== -->
+<div class="slide relative">
+  <div class="relative z-10 px-16 py-12 h-full flex flex-col">
+    <div class="flex items-start justify-between mb-4">
+      <div>
+        <h1 class="text-3xl font-black text-white leading-tight">Struktur Organisasi &amp; Alur Metodologi</h1>
+        <div class="w-20 h-1.5 mt-2 rounded-full bg-primary-600"></div>
+      </div>
+    </div>
+    
+    <div class="grid grid-cols-2 gap-8 flex-1 min-h-0">
+      <div class="rounded-2xl bg-slate-800/40 border border-slate-700 p-4 flex flex-col items-center justify-center">
+        <div class="text-sm font-bold text-slate-400 mb-2 uppercase tracking-wide">Struktur Organisasi SD IT Al-huda</div>
+        <img src="assets/images/gambar_5_struktur_organisasi.png" alt="Struktur Organisasi" class="max-h-[380px] object-contain rounded-xl border border-slate-600 bg-white p-2">
+      </div>
+      <div class="rounded-2xl bg-slate-800/40 border border-slate-700 p-4 flex flex-col items-center justify-center">
+        <div class="text-sm font-bold text-slate-400 mb-2 uppercase tracking-wide">Flowchart Metodologi Audit</div>
+        <img src="assets/images/gambar_4_metodologi.png" alt="Metodologi" class="max-h-[380px] object-contain rounded-xl border border-slate-600 bg-white p-2">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================== SLIDE 6: SKALA PENILAIAN ======================== -->
+<div class="slide relative">
+  <div class="relative z-10 px-20 py-16 h-full flex flex-col">
+    <div class="flex items-start justify-between mb-6">
+      <div>
+        <h1 class="text-4xl font-black text-white leading-tight">Metode Pengukuran COBIT 2019</h1>
+        <div class="w-20 h-1.5 mt-3 rounded-full bg-primary-600"></div>
+      </div>
+      <div class="w-14 h-14 rounded-2xl flex items-center justify-center bg-slate-800 border border-slate-700">
+        <iconify-icon icon="lucide:bar-chart-3" width="28" height="28" class="text-primary-400"></iconify-icon>
+      </div>
+    </div>
+
+    <div class="flex-1 min-h-0 grid grid-cols-2 gap-8">
+      <div>
+        <h3 class="text-xl font-bold text-white mb-4">Capability Level (0 - 5)</h3>
+        <div class="space-y-3">
+          <div class="p-3 rounded-xl border border-slate-700 bg-slate-800 flex justify-between items-center">
+            <span class="font-bold text-slate-400">0 - Incomplete</span>
+            <span class="text-xs text-slate-500">Tidak berjalan</span>
+          </div>
+          <div class="p-3 rounded-xl border border-slate-700 bg-slate-800 flex justify-between items-center">
+            <span class="font-bold text-slate-400">1 - Performed</span>
+            <span class="text-xs text-slate-500">Tujuan tercapai intuitif</span>
+          </div>
+          <div class="p-3 rounded-xl border border-primary-500 bg-primary-900/40 flex justify-between items-center">
+            <span class="font-black text-primary-400">2 - Managed (Current)</span>
+            <span class="text-xs text-primary-300 font-medium">Kegiatan dasar terkelola penuh</span>
+          </div>
+          <div class="p-3 rounded-xl border border-slate-700 bg-slate-800 flex justify-between items-center">
+            <span class="font-bold text-slate-400">3 - Established</span>
+            <span class="text-xs text-slate-500">Kinerja diukur kualitatif (SOP)</span>
+          </div>
+          <div class="p-3 rounded-xl border border-accent-500 bg-accent-900/40 flex justify-between items-center">
+            <span class="font-black text-accent-400">4 - Predictable (Target)</span>
+            <span class="text-xs text-accent-300 font-medium">Kinerja diukur kuantitatif</span>
+          </div>
+          <div class="p-3 rounded-xl border border-slate-700 bg-slate-800 flex justify-between items-center">
+            <span class="font-bold text-slate-400">5 - Optimizing</span>
+            <span class="text-xs text-slate-500">Perbaikan berkelanjutan</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold text-white mb-4">Rating Scale (N/P/L/F)</h3>
+        <p class="text-sm text-slate-400 mb-4">Nilai ketercapaian dihitung berdasarkan kuesioner dengan rating N/P/L/F. Jika suatu level memperoleh rating "L" (>50%), maka level tersebut dianggap tercapai.</p>
+        <div class="grid grid-cols-2 gap-4">
+          <div class="p-4 rounded-xl border border-rose-900 bg-rose-950/40 text-center">
+            <div class="text-2xl font-black text-rose-500">N</div>
+            <div class="text-xs text-rose-300">Not Achieved (0-15%)</div>
+          </div>
+          <div class="p-4 rounded-xl border border-orange-900 bg-orange-950/40 text-center">
+            <div class="text-2xl font-black text-orange-500">P</div>
+            <div class="text-xs text-orange-300">Partially Achieved (15-50%)</div>
+          </div>
+          <div class="p-4 rounded-xl border border-primary-900 bg-primary-950/40 text-center">
+            <div class="text-2xl font-black text-primary-500">L</div>
+            <div class="text-xs text-primary-300">Largely Achieved (50-85%)</div>
+          </div>
+          <div class="p-4 rounded-xl border border-accent-900 bg-accent-950/40 text-center">
+            <div class="text-2xl font-black text-accent-500">F</div>
+            <div class="text-xs text-accent-300">Fully Achieved (85-100%)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================== SLIDE 7: CAPABILITY LEVEL ======================== -->
+<div class="slide relative">
+  <div class="relative z-10 px-16 py-12 h-full flex flex-col">
+    <div class="flex items-start justify-between mb-4">
+      <div>
+        <h1 class="text-3xl font-black text-white leading-tight">Hasil Pengukuran Capability Level</h1>
+        <div class="w-20 h-1.5 mt-2 rounded-full bg-primary-600"></div>
+      </div>
+    </div>
+    
+    <div class="grid grid-cols-12 gap-8 flex-1 min-h-0 items-center">
+      <div class="col-span-5">
+        <img src="assets/images/gambar_1_radar_capability.png" alt="Radar Chart" class="w-full object-contain rounded-2xl border border-slate-600 bg-white p-4 shadow-xl">
+      </div>
+      <div class="col-span-7 flex flex-col gap-6">
+        <div class="p-6 rounded-2xl bg-primary-900/30 border border-primary-500/30">
+          <h3 class="text-2xl font-black text-primary-400 mb-2">Semua Domain Tertahan di Level 2</h3>
+          <p class="text-base text-slate-300 leading-relaxed">
+            Hasil kuesioner menunjukkan bahwa kelima domain <strong>(APO07, BAI09, DSS01, DSS03, DSS05)</strong> telah mencapai <strong>Level 2 (Managed Process)</strong> secara penuh. Artinya, aktivitas dasar operasional TI di SD IT Al-huda sudah berjalan dengan tanggap dan dikelola secara riil.
+          </p>
+        </div>
+        <div class="p-6 rounded-2xl bg-orange-900/30 border border-orange-500/30">
+          <h3 class="text-2xl font-black text-orange-400 mb-2">Kendala Menuju Level 3</h3>
+          <p class="text-base text-slate-300 leading-relaxed">
+            Pencapaian untuk Level 3 rata-rata hanya berada pada rating <strong>P (Partially Achieved)</strong> di angka ~44% - 46%, tidak mencapai ambang batas >50% (L). Hal ini disebabkan oleh ketiadaan Standar Operasional Prosedur (SOP) tertulis, sistem pencatatan inventaris digital, dan parameter SLA formal.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================== SLIDE 8: CAPAIAIAN GRAFIK BAR ======================== -->
+<div class="slide relative">
+  <div class="relative z-10 px-16 py-12 h-full flex flex-col items-center">
+    <h1 class="text-3xl font-black text-white mb-6 w-full text-left">Persentase Ketercapaian per Level</h1>
+    <div class="flex-1 w-full bg-white p-4 rounded-2xl border border-slate-600 flex justify-center items-center">
+      <img src="assets/images/gambar_3_ketercapaian.png" alt="Bar Chart Ketercapaian" class="max-h-[500px] object-contain">
+    </div>
+  </div>
+</div>
+
+<!-- ======================== SLIDE 9: GAP ANALYSIS ======================== -->
+<div class="slide relative">
+  <div class="relative z-10 px-16 py-12 h-full flex flex-col">
+    <div class="flex items-start justify-between mb-6">
+      <div>
+        <h1 class="text-3xl font-black text-white leading-tight">Analisis Kesenjangan (GAP)</h1>
+        <div class="w-20 h-1.5 mt-2 rounded-full bg-primary-600"></div>
+      </div>
+    </div>
+    
+    <div class="grid grid-cols-12 gap-8 flex-1 min-h-0 items-center">
+      <div class="col-span-7">
+        <img src="assets/images/gambar_2_gap_analysis.png" alt="GAP Analysis Chart" class="w-full object-contain rounded-2xl border border-slate-600 bg-white p-4 shadow-xl">
+      </div>
+      <div class="col-span-5 flex flex-col gap-6">
+        <div class="p-6 rounded-2xl bg-slate-800 border border-slate-700">
+          <div class="flex justify-between items-center mb-4">
+            <span class="text-slate-400 font-bold">Kondisi Saat Ini (As-is)</span>
+            <span class="px-3 py-1 rounded bg-slate-700 text-white font-bold">Level 2</span>
+          </div>
+          <div class="flex justify-between items-center mb-6">
+            <span class="text-slate-400 font-bold">Target Evaluasi (To-be)</span>
+            <span class="px-3 py-1 rounded bg-accent-900/50 text-accent-400 font-bold border border-accent-500/50">Level 4</span>
+          </div>
+          <div class="w-full h-px bg-slate-700 mb-6"></div>
+          <div class="text-center">
+            <div class="text-sm text-slate-400 uppercase tracking-widest font-bold mb-2">Total Kesenjangan</div>
+            <div class="text-5xl font-black text-rose-500">2 Level</div>
+            <p class="text-sm text-slate-400 mt-3">GAP ini merata pada seluruh domain yang diaudit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================== SLIDE 10: KESIMPULAN & REKOMENDASI ======================== -->
+<div class="slide relative">
+  <div class="relative z-10 px-20 py-16 h-full flex flex-col">
+    <div class="flex items-start justify-between mb-8">
+      <div>
+        <h1 class="text-4xl font-black text-white leading-tight">Rekomendasi Strategis (Mitigasi GAP)</h1>
+        <div class="w-20 h-1.5 mt-3 rounded-full bg-primary-600"></div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-6 flex-1 min-h-0">
+      <div class="rounded-3xl border border-primary-500/30 bg-primary-900/10 p-6 flex flex-col">
+        <div class="w-14 h-14 rounded-2xl flex items-center justify-center bg-primary-500/20 mb-4">
+          <iconify-icon icon="lucide:file-text" width="28" height="28" class="text-primary-400"></iconify-icon>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-3">1. Formalisasi SOP</h3>
+        <p class="text-sm text-slate-300 leading-relaxed">
+          Sahkan Standar Operasional Prosedur (SOP) secara resmi oleh manajemen/Yayasan terkait pemeliharaan Lab, penanganan insiden TIK, dan backup data rutin (Menjawab kelemahan DSS01 &amp; DSS03).
+        </p>
+      </div>
+
+      <div class="rounded-3xl border border-accent-500/30 bg-accent-900/10 p-6 flex flex-col">
+        <div class="w-14 h-14 rounded-2xl flex items-center justify-center bg-accent-500/20 mb-4">
+          <iconify-icon icon="lucide:monitor-smartphone" width="28" height="28" class="text-accent-400"></iconify-icon>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-3">2. Digitalisasi Manajemen</h3>
+        <p class="text-sm text-slate-300 leading-relaxed">
+          Tinggalkan pencatatan manual. Gunakan aplikasi sistem inventaris digital terbuka (open-source) untuk pendataan PC, software, dan tiket pelaporan kerusakan (helpdesk) guna memantau SLA (Menjawab BAI09).
+        </p>
+      </div>
+
+      <div class="rounded-3xl border border-accent2-500/30 bg-accent2-900/10 p-6 flex flex-col">
+        <div class="w-14 h-14 rounded-2xl flex items-center justify-center bg-accent2-500/20 mb-4">
+          <iconify-icon icon="lucide:graduation-cap" width="28" height="28" class="text-accent2-400"></iconify-icon>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-3">3. Edukasi Siber Berkala</h3>
+        <p class="text-sm text-slate-300 leading-relaxed">
+          Tetapkan kebijakan perlindungan data privasi siswa (khusus data Dapodik) dan laksanakan program pelatihan literasi digital/keamanan dasar bagi guru &amp; staf secara periodik (Menjawab APO07 &amp; DSS05).
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================== SLIDE 11: PENUTUP ======================== -->
+<div class="slide relative">
+  <div class="absolute inset-0 gov-grid opacity-60"></div>
+  <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-20">
+    <div class="w-20 h-20 rounded-3xl flex items-center justify-center bg-primary-600/20 border border-primary-500/30 mb-8">
+      <iconify-icon icon="lucide:check-circle-2" width="40" height="40" class="text-primary-400"></iconify-icon>
+    </div>
+    <h1 class="text-6xl font-black text-white mb-4">Terima Kasih</h1>
+    <p class="text-xl text-slate-400 mb-8 max-w-2xl">
+      Semoga evaluasi COBIT 2019 ini dapat mendorong terwujudnya tata kelola TI yang tangguh dan terprediksi di lingkungan SD IT Al-huda.
+    </p>
+    <div class="px-6 py-2 rounded-full border border-slate-700 bg-slate-800 text-slate-300 font-bold uppercase tracking-widest text-sm">
+      Audit Sistem Informasi (453)
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

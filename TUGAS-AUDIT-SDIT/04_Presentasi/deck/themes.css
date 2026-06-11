@@ -1,0 +1,103 @@
+/* themes.css */
+:root {
+  --sdit-green: #3BB17B;
+  --sdit-green-dark: #2A8259;
+  --sdit-green-light: #5CE0A3;
+}
+
+[data-theme="sdit-dark"] {
+  --bg-main: #0B1121;
+  --bg-slide: #0B1121;
+  
+  /* Primary (Green based on Logo) */
+  --primary-50: #ECFDF5;
+  --primary-100: #D1FAE5;
+  --primary-200: #A7F3D0;
+  --primary-300: #6EE7B7;
+  --primary-400: #34D399;
+  --primary-500: #10B981; /* Default Tailwind Emerald */
+  --primary-600: #3BB17B; /* Match Logo */
+  --primary-700: #047857;
+  --primary-800: #065F46;
+  --primary-900: #064E3B;
+  
+  --primary-shadow: rgba(59, 177, 123, 0.4);
+  --motif-primary-fill: rgba(59, 177, 123, 0.15);
+  
+  /* Accent 1 (Teal/Cyan) */
+  --accent-50: #ECFEFF;
+  --accent-100: #CFFAFE;
+  --accent-200: #A5F3FC;
+  --accent-300: #67E8F9;
+  --accent-400: #22D3EE;
+  --accent-500: #06B6D4;
+  --accent-600: #0891B2;
+  --accent-700: #0E7490;
+  --accent-800: #155E75;
+  --accent-900: #164E63;
+  
+  --motif-accent-fill: rgba(6, 182, 212, 0.15);
+
+  /* Accent 2 (Amber/Yellow) */
+  --accent2-50: #FFFBEB;
+  --accent2-100: #FEF3C7;
+  --accent2-200: #FDE68A;
+  --accent2-300: #FCD34D;
+  --accent2-400: #FBBF24;
+  --accent2-500: #F59E0B;
+  --accent2-600: #D97706;
+  --accent2-700: #B45309;
+  --accent2-800: #92400E;
+  --accent2-900: #78350F;
+
+  /* Status Colors */
+  --status-success: #10B981;
+  --status-success-bg: #D1FAE5;
+  --status-warning: #F59E0B;
+  --status-danger: #EF4444;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Outer background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.slide {
+  width: 1336px;
+  height: 750px; /* 16:9 aspect ratio standard */
+  position: relative;
+  overflow: hidden;
+  background-color: var(--bg-slide);
+  color: #fff; /* Dark theme default text */
+  margin-top: 2rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  font-family: 'Inter', sans-serif;
+  flex-shrink: 0;
+}
+
+/* Light theme overrides inside slides for specific cards if needed */
+.text-slate-900 { color: #f8fafc; } /* Inverting dark texts to light */
+.text-slate-800 { color: #f1f5f9; }
+.text-slate-700 { color: #e2e8f0; }
+.text-slate-600 { color: #cbd5e1; }
+.text-slate-500 { color: #94a3b8; }
+.bg-white { background-color: #1e293b; border-color: #334155; }
+.border-slate-200 { border-color: #334155; }
+
+/* Invert accent backgrounds to look good on dark theme */
+.primary-card { background-color: rgba(59, 177, 123, 0.1); border-color: rgba(59, 177, 123, 0.3); }
+.accent-card { background-color: rgba(6, 182, 212, 0.1); border-color: rgba(6, 182, 212, 0.3); }
+.accent2-card { background-color: rgba(245, 158, 11, 0.1); border-color: rgba(245, 158, 11, 0.3); }
+
+.accent-line-sm {
+  width: 32px;
+  height: 4px;
+  border-radius: 99px;
+  margin-top: 4px;
+}
