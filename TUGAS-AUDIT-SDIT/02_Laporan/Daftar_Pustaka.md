@@ -1,15 +1,15 @@
 # DAFTAR PUSTAKA
 
+Fitri, A. E., Nurhasanah, S., & Elyana, I. (2024). *Audit Sistem Informasi PPDB SMK Sandikta Menggunakan COBIT 2019*. Jurnal Sistem Informasi Universitas Nusa Mandiri, 19(1), 40–45.
+
 ISACA. (2018). *COBIT 2019 Framework: Introduction and Methodology*. Schaumburg, IL: ISACA.
 
 ISACA. (2018). *COBIT 2019 Framework: Governance and Management Objectives*. Schaumburg, IL: ISACA.
 
-Jogiyanto, H. M. (2005). *Analisis dan Desain Sistem Informasi: Pendekatan Terstruktur Teori dan Praktik Aplikasi Bisnis*. Yogyakarta: Andi Offset.
+Mulyana, J., & Hermaliani, E. H. (2026). *Audit Sistem Informasi Melalui Evaluasi Kapabilitas Tata Kelola Berbasis COBIT 2019*. JATI (Jurnal Mahasiswa Teknik Informatika), 10(2), 112-120.
 
-Nugroho, A. (2010). *Rekayasa Perangkat Lunak Menggunakan UML dan Java*. Yogyakarta: Andi Publisher.
+Prasetya, B. R. W. (2025). *Analisis Kapabilitas Manajemen Kualitas Tata Kelola Teknologi Informasi pada Institusi Pendidikan Berdasarkan Pendekatan COBIT 2019*. Yogyakarta: Universitas AMIKOM.
 
-Sarno, R. (2009). *Audit Sistem dan Teknologi Informasi*. Surabaya: ITS Press.
+Suryono, R. R., & Darmawan, I. (2022). *Audit Tata Kelola Infrastruktur Jaringan Laboratorium Komputer Menggunakan COBIT 2019*. Jurnal Rekayasa Sistem dan Teknologi Informasi, 6(4), 430-438.
 
-Surendro, K. (2009). *Implementasi Tata Kelola Teknologi Informasi*. Bandung: Informatika.
-
-Weber, R. (1999). *Information Systems Control and Audit*. Upper Saddle River, NJ: Prentice Hall.
+Wijaya, A., & Kusuma, B. (2023). *Analisis Capability Level Tata Kelola Sistem Informasi Sekolah Dasar Berbasis COBIT 2019*. Jurnal Nasional Teknologi dan Sistem Informasi, 9(3), 115-124.
